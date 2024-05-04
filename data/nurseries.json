@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Little Sprouts",
+      "phoneNumber": "123-456-7890",
+      "maxGroupSize": 20,
+      "numOfChilds": 12,
+      "ratingsAverage": 4.8,
+      "ratingsQuantity": 28,
+      "price": 1200,
+      "priceDiscount": 100,
+      "summary": "A nurturing and inclusive environment for early childhood development.",
+      "description": "Little Sprouts is committed to providing a safe and enriching space for children to explore, learn, and grow.",
+      "imageCover": "little-sprouts-cover.jpg",
+      "startDate": "2024-07-15"
+    },
+    {
+      "name": "Happy Hearts Nursery",
+      "phoneNumber": "987-654-3210",
+      "maxGroupSize": 25,
+      "numOfChilds": 18,
+      "ratingsAverage": 4.5,
+      "ratingsQuantity": 20,
+      "price": 1500,
+      "priceDiscount": 120,
+      "summary": "Where every child's happiness matters.",
+      "description": "At Happy Hearts Nursery, we focus on creating a joyful and supportive environment for children to thrive and learn.",
+      "imageCover": "happy-hearts-cover.jpg",
+      "startDate": "2024-08-01"
+    },
+    {
+      "name": "Blossom Kids Academy",
+      "phoneNumber": "555-123-4567",
+      "maxGroupSize": 30,
+      "numOfChilds": 25,
+      "ratingsAverage": 4.9,
+      "ratingsQuantity": 35,
+      "price": 1800,
+      "priceDiscount": 150,
+      "summary": "Where every child blossoms into their full potential.",
+      "description": "Blossom Kids Academy is dedicated to providing a nurturing and stimulating environment for children to discover and flourish.",
+      "imageCover": "blossom-kids-cover.jpg",
+      "startDate": "2024-09-01"
+    },
+    {
+        "name": "Sunshine Garden Nursery",
+        "phoneNumber": "555-987-6543",
+        "maxGroupSize": 15,
+        "numOfChilds": 10,
+        "ratingsAverage": 4.7,
+        "ratingsQuantity": 18,
+        "price": 1100,
+        "priceDiscount": 80,
+        "summary": "Where children bloom and grow like flowers.",
+        "description": "At Sunshine Garden Nursery, we provide a nurturing and engaging environment for children to develop their skills and creativity.",
+        "imageCover": "sunshine-garden-cover.jpg",
+        "startDate": "2024-10-01"
+      },
+      {
+        "name": "Tiny Treasures Preschool",
+        "phoneNumber": "123-789-4560",
+        "maxGroupSize": 12,
+        "numOfChilds": 8,
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 15,
+        "price": 1000,
+        "priceDiscount": 0,
+        "summary": "Where every child's potential is valued.",
+        "description": "Tiny Treasures Preschool is committed to providing a nurturing and educational environment where young learners can thrive.",
+        "imageCover": "tiny-treasures-cover.jpg",
+        "startDate": "2024-11-01"
+      },
+      {
+        "name": "Creative Minds Daycare",
+        "phoneNumber": "555-321-7890",
+        "maxGroupSize": 18,
+        "numOfChilds": 14,
+        "ratingsAverage": 4.4,
+        "ratingsQuantity": 22,
+        "price": 1300,
+        "priceDiscount": 100,
+        "summary": "Where imagination and learning go hand in hand.",
+        "description": "At Creative Minds Daycare, we foster a creative and stimulating environment where children can explore their interests and develop their skills.",
+        "imageCover": "creative-minds-cover.jpg",
+        "startDate": "2025-01-01"
+      }
+  ]
+  

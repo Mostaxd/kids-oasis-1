@@ -1,0 +1,122 @@
+[
+  {
+    "firstName": "Mahmoud",
+    "lastName": "Muhammad",
+    "email": "mahmoudmohamedff16161616@gmail.com",
+    "role": "admin",
+    "address": "Alexandria, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Maher",
+    "email": "alimaherr47@gmail.com",
+    "role": "parent",
+    "address": "Alexandria, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Mazen",
+    "lastName": "Tayel",
+    "email": "Mazen.Tayel@example.com",
+    "role": "nursury-owner",
+    "address": "Cairo, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Ahmed",
+    "lastName": "Walid",
+    "email": "Ahmed.Walid@example.com",
+    "role": "service-providor",
+    "address": "kafr-elsheikh, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Layla",
+    "lastName": "Khalil",
+    "email": "Layla.Khalil@example.com",
+    "role": "parent",
+    "address": "Cairo, Egypt",
+    "gender": "female",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Youssef",
+    "lastName": "Nasr",
+    "email": "Youssef.Nasr@example.com",
+    "role": "parent",
+    "address": "Alexandria, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Nour",
+    "lastName": "Rashid",
+    "email": "Nour.Rashid@example.com",
+    "role": "parent",
+    "address": "Cairo, Egypt",
+    "gender": "female",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Karim",
+    "lastName": "Said",
+    "email": "Karim.Said@example.com",
+    "role": "service-providor",
+    "address": "Alexandria, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Aya",
+    "lastName": "Hassan",
+    "email": "Aya.Hassan@example.com",
+    "role": "nursury-owner",
+    "address": "Cairo, Egypt",
+    "gender": "female",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Hassan",
+    "lastName": "Ali",
+    "email": "Hassan.Ali@example.com",
+    "role": "parent",
+    "address": "Cairo, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Lina",
+    "lastName": "Salem",
+    "email": "Lina.Salem@example.com",
+    "role": "nursury-owner",
+    "address": "Alexandria, Egypt",
+    "gender": "female",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  },
+  {
+    "firstName": "Amr",
+    "lastName": "Saeed",
+    "email": "Amr.Saeed@example.com",
+    "role": "service-providor",
+    "address": "Giza, Egypt",
+    "gender": "male",
+    "password": "{{password}}",
+    "passwordConfirm": "{{password}}"
+  }
+]
