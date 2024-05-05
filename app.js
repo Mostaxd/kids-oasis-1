@@ -23,8 +23,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with the actual origin of your client application
-    // Allow credentials (cookies) to be included in the request
+    // origin: "http://localhost:5173", // Replace with the actual origin of your client application
+    credentials: true, // Allow credentials (cookies) to be included in the request
   })
 );
 
