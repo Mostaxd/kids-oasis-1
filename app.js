@@ -21,7 +21,7 @@ const app = express();
 
 // 1) Global Middleware
 
-/*
+
 app.use(
   cors({
     origin: "http://localhost:5173", // Replace with the actual origin of your client application
@@ -29,7 +29,7 @@ app.use(
   })
 );
 
-*/
+
 //app.use(cors()); // Access-Control-Allow-Origin
 //app.options("*", cors());
 
