@@ -30,8 +30,8 @@ app.use(
 );
 
 */
-app.use(cors()); // Access-Control-Allow-Origin
-app.options("*", cors());
+//app.use(cors()); // Access-Control-Allow-Origin
+//app.options("*", cors());
 
 app.use(helmet()); // setting the security http headers
 
