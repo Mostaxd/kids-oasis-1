@@ -184,6 +184,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
 // Reset Password function
 exports.resetPassword = catchAsync(async (req, res, next) => {
+  console.log("hello dfdf");
   // Get user based on the token
   const hashedToken = crypto
     .createHash("sha256")
