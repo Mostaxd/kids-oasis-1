@@ -184,11 +184,17 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
 // Reset Password function
 exports.resetPassword = catchAsync(async (req, res, next) => {
-  console.log("hello dfdf");
-  // Get user based on the token
+  // retrieve the token from query parameters
+  const { token } = req.query;
+
+  if (!token) {
+    return next(new AppError("No token provided!", 400));
+  }
+
+  // hash token
   const hashedToken = crypto
     .createHash("sha256")
-    .update(req.params.token)
+    .update(token)
     .digest("hex");
 
   const user = await User.findOne({
@@ -200,18 +206,16 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
     return next(new AppError("Token is invalid or has expired", 400));
   }
 
-  // If token has not expired and there is a user,THEN set the new password
+  // set new password
   user.password = req.body.password;
   user.passwordConfirm = req.body.passwordConfirm;
   user.passwordResetToken = undefined;
   user.passwordResetExpires = undefined;
-
-  // Update the current password 'allowing validateBeforeSave' to hash password
   await user.save();
 
-  // THEN, user logged in
   createSendToken(user, 200, res);
 });
+
 
 // Update Current User
 exports.updatePassword = catchAsync(async (req, res, next) => {
