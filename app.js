@@ -21,14 +21,12 @@ const app = express();
 
 // 1) Global Middleware
 
-
 app.use(
   cors({
     origin: "http://localhost:5173", // Replace with the actual origin of your client application
-    credentials: true, // Allow credentials (cookies) to be included in the request
+    // Allow credentials (cookies) to be included in the request
   })
 );
-
 
 //app.use(cors()); // Access-Control-Allow-Origin
 //app.options("*", cors());
